@@ -40,21 +40,19 @@ body{
     /*border:1px solid black;*/
     position: relative;
     top: -57px;
-
 }
 .img-sec img{
     border-radius: 50px;
 }
-.activity-container{
+.active-container{
     display: flex;
     justify-content: space-around;
 }
 .item{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
 
 }
+
+
 
