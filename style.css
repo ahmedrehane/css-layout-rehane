@@ -4,3 +4,57 @@
     box-sizing: border-box;
     
 }
+body{
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+
+
+}
+.main{
+    background-color: hsl(185,75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    border-radius: 15px;
+}
+.oper-container{
+    height: 150px;
+    width: 350px;
+    background-color: green;
+    border-radius: 8px 8px 0 0px;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border:1px solid black;*/
+    position: relative;
+    top: -57px;
+
+}
+.img-sec img{
+    border-radius: 50px;
+}
+.activity-container{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
